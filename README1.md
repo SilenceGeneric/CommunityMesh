@@ -33,14 +33,14 @@ CommunityMesh is a project designed to create a simple communication network tha
      sudo apt install python3 python3-pip
      pip3 install flask
      ```
-   - Download the CommunityMesh code to your Raspberry Pi (replace `<repository-url>` with the actual GitHub link):
+   - Download the CommunityMesh code to your Raspberry Pi (https://github.com/SilenceGeneric/CommunityMesh.git):
      ```bash
-     git clone <repository-url>
-     cd CommunityMesh/rpi_server
+     git clone <https://github.com/SilenceGeneric/CommunityMesh.git>
+     cd CommunityMesh/rpi4library
      ```
 
 4. **Adding Content to the Library:**
-   - Place your HTML files and any resources you want to share in the `library` folder within the `rpi_server` directory.
+   - Place your HTML files and any resources you want to share in the `library` folder within the `rpi4library` directory.
    - You can find resources from projects like [Internet in a Box](https://internet-in-a-box.org/) to use in your library.
 
 5. **Run the Server:**
